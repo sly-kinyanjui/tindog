@@ -75,7 +75,12 @@ p{
 }
 
 .icon{
-    color: #ef8172;
+    color: #9e7974;
+    margin-bottom: 1rem;
+}
+
+.icon-hover{
+    color: #ff4c68;
 }
 
 
