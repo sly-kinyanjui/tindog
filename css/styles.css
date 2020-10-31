@@ -17,6 +17,14 @@ h1{
     line-height: 1.5;
 }
 
+h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    color: #8F8F8F;
+}
+
 
 /* Navigation Bar */
 
@@ -63,6 +71,7 @@ h1{
 
 .feature-box{
     text-align: center;
+    padding: 5%;
 }
 
 
