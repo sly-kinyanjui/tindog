@@ -16,6 +16,11 @@ h1{
     size: 5.0rem;
     line-height: 1.5;
 }
+h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
 
 h3{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -75,12 +80,22 @@ p{
 }
 
 .icon{
-    color: #9e7974;
+    color: #ef8172;
     margin-bottom: 1rem;
 }
 
-.icon-hover{
+.icon:hover{
     color: #ff4c68;
 }
+
+/* Testimonial Section */
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
 
 
