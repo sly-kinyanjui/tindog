@@ -49,7 +49,7 @@ p{
 
 .nav-link{
     font-size: 1.2rem;
-    font-family: 'Merriweather', serif;;
+    font-family: 'Merriweather', serif;
 
 }
 
@@ -138,6 +138,14 @@ padding: 3% 2%;
 
 #cta {
     background-color: #ff4c68;
+    color: #fff;
+    padding: 7% 15%;
+}
+
+.cta-heading {
+    font-family: 'Merriweather', serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
 
 
