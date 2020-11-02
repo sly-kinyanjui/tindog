@@ -133,12 +133,20 @@ p{
 padding: 3% 2%;
 }
 
+/* CTA Section */
+
+
+#cta {
+    background-color: #ff4c68;
+}
+
+
 @media (max-width:1028px) {
 
     #title {
         text-align: center;
     }
-    
+
     .title-image{
        position: static;
        transform: rotate(0);
