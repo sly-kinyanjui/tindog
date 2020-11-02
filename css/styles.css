@@ -2,6 +2,33 @@ body{
    font-family: 'Merriweather', serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+    
+}
+h2{
+    
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    
+    font-size: 1.5rem;
+}
+
+p{
+    color: #8F8F8F;
+}
+
+/* Heading Section */
+
+.big-heading {
+    font-family: 'Merriweather', serif;
+    size: 5.0rem;
+    line-height: 1.5;
+}
+
 #title {
     color: #fff;
     background-color: #ff4c68;
@@ -10,26 +37,6 @@ body{
 .container-fluid{
     padding:3% 15% 7% ;
 }
-
-h1{
-    font-family: 'Merriweather', serif;
-    size: 5.0rem;
-    line-height: 1.5;
-}
-h2{
-    font-family: 'Merriweather', serif;
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
-h3{
-    font-family: 'Merriweather', serif;
-}
-
-p{
-    color: #8F8F8F;
-}
-
 
 /* Navigation Bar */
 
@@ -129,6 +136,11 @@ p{
     padding: 100px;
     text-align: center;
 }
+.price-text{
+font-size: 3rem;
+line-height: 1.5;
+}
+
 .pricing-column {
 padding: 3% 2%;
 }
