@@ -23,19 +23,19 @@ p{
 .section-heading {
     font-size: 3rem;
     line-height: 1,5;
-}
 
-#title {
-    color: #fff;
-    background-color: #ff4c68;
-    text-align: left;
-}
+    }
 
-.container-fluid{
-    padding:3% 15% 7% ;
-}
+    /* Containers */
 
-/* Navigation Bar */
+    .container-fluid{
+        padding: 7% 15%;
+    }
+    
+
+
+ 
+    /* Navigation Bar */
 
 .navbar{
    padding: 0 0 4.5rem; 
@@ -57,12 +57,27 @@ p{
 
 }
 
+
+
 /* Download Buttons */
 
 .download-button{
     margin: 5% 3% 5% 0;
 }
 
+
+/* Title Section */
+
+#title {
+    color: #fff;
+    background-color: #ff4c68;
+    text-align: left;
+    
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
 
 /* Title Image */
 
@@ -77,7 +92,6 @@ p{
 /* Features Section */
 
 #features{
-    padding: 7% 15%;
     background-color: #fff;
     position: relative;
     z-index: 1;
@@ -117,9 +131,6 @@ p{
     margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
 
 #press {
     background-color: #ef8172; 
@@ -152,16 +163,12 @@ padding: 3% 2%;
 #cta {
     background-color: #ff4c68;
     color: #fff;
-    padding: 7% 15%;
 }
 
 
 
 /* Footer Section */
 
-#footer {
-    padding: 7% 15%;
-}
 
 .social-icon {
     margin: 20px 10px;
