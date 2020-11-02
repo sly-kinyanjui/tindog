@@ -1,5 +1,6 @@
 body{
    font-family: 'Merriweather', serif;
+   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -7,11 +8,6 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
-
-h3{
-    
-    font-size: 1.5rem;
-}
 
 p{
     color: #8F8F8F;
@@ -24,7 +20,7 @@ p{
     size: 5.0rem;
     line-height: 1.5;
 }
-,section-heading {
+.section-heading {
     font-size: 3rem;
     line-height: 1,5;
 }
@@ -32,6 +28,7 @@ p{
 #title {
     color: #fff;
     background-color: #ff4c68;
+    text-align: left;
 }
 
 .container-fluid{
@@ -85,9 +82,11 @@ p{
     position: relative;
     z-index: 1;
 }
+.feature-title {
+    font-size: 1.5rem;
+}
 
 .feature-box{
-    text-align: center;
     padding: 4.5%;
 }
 
@@ -103,7 +102,6 @@ p{
 /* Testimonial Section */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #fff;
 }
@@ -125,7 +123,6 @@ p{
 
 #press {
     background-color: #ef8172; 
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -139,7 +136,6 @@ p{
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 .price-text{
 font-size: 3rem;
@@ -157,20 +153,14 @@ padding: 3% 2%;
     background-color: #ff4c68;
     color: #fff;
     padding: 7% 15%;
-    text-align: center;
 }
 
-.cta-heading {
-    font-family: 'Merriweather', serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
+
 
 /* Footer Section */
 
 #footer {
     padding: 7% 15%;
-    text-align: center;
 }
 
 .social-icon {
