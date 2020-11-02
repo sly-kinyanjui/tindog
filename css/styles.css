@@ -140,6 +140,7 @@ padding: 3% 2%;
     background-color: #ff4c68;
     color: #fff;
     padding: 7% 15%;
+    text-align: center;
 }
 
 .cta-heading {
@@ -147,6 +148,19 @@ padding: 3% 2%;
     font-size: 3.5rem;
     line-height: 1.5;
 }
+
+/* Footer Section */
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+
 
 
 @media (max-width:1028px) {
